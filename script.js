@@ -1,7 +1,7 @@
 let profilePic = document.getElementById("profile-pic");
-let inpuutFile = document.getElementById("input-file");
+let inputFile = document.getElementById("input-file");
 
-inpuutFile.onchange = function(){
-    profilePic.src = URL.createObjectURL(inputFiles.files[0]);
+inputFile.onchange = function(){
+    profilePic.src = URL.createObjectURL(inputFile.files[0]);
 
 }
